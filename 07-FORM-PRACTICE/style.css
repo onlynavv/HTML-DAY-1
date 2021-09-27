@@ -1,0 +1,42 @@
+.formHeading {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+form {
+  width: 600px;
+  border: solid 4px black;
+  padding: 20px 40px;
+  margin: 25px auto;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+#subPara {
+  display: inline;
+}
+
+#nameBox,
+#address {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nameBox div {
+  display: flex;
+  flex-direction: column;
+}
+
+#address {
+  width: 100%;
+}
+
+input {
+  border: none;
+  border-bottom: solid 2px black;
+  outline: none;
+  margin-top: 10px;
+}

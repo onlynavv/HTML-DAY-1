@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <h2 class="formHeading">Yes! I want to subscribe to <em>Mag-O-Zine</em></h2>
+        <div id="nameBox">
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" id='firstName' placeholder="Enter First Name">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" id='lastName' placeholder="Enter Last Name">
+            </div>
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input type="text" id='address' placeholder="Enter Address">
+        </div>
+        <div id="address">
+            <div>
+                <label for="city">City</label>
+                <input type="text" id='city' placeholder="Enter City">
+            </div>
+            <div>
+                <label for="state">State</label>
+                <input type="text" id='state' placeholder="Enter State">
+            </div>
+            <div>
+                <label for="zip">Zip Code</label>
+                <input type="text" id='zip' placeholder="Enter ZipCode">
+            </div>
+        </div>
+        <div>
+            <p id="subPara">Subscribe for:</p>
+                <input type="checkbox" name="subscription">
+                <label>1 year ($19.95)</label>
+                <input type="checkbox" name="subscription">
+                <label>2 years ($35.00)</label>
+        </div>
+        <div>
+            <p>Send me more information about:</p>
+            <div>
+                <input type="checkbox" name="info">
+                <label>Computer-Zine</label>
+            </div>
+            <div>
+                <input type="checkbox" name="info">
+                <label>Fishing-Zine</label>
+            </div>
+            <div>
+                <input type="checkbox" name="info">
+                <label>Cat-O-Zine</label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
